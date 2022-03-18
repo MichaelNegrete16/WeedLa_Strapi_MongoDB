@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/marihuanas",
+      "handler": "marihuanas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/marihuanas/count",
+      "handler": "marihuanas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/marihuanas/:id",
+      "handler": "marihuanas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/marihuanas",
+      "handler": "marihuanas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/marihuanas/:id",
+      "handler": "marihuanas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/marihuanas/:id",
+      "handler": "marihuanas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
